@@ -14,6 +14,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "pakagerOpts": {
+      "config" : "metro.config.js",
+      "sourceExts" : ["js", "jsx", "ts", "tsx", "svg"]
+    },
     "ios": {
       "supportsTablet": true
     },
