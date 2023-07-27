@@ -3,14 +3,15 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
 import {endpointPokes,pokeApi} from '../service';
 
-export const PokeContext = createContext<Pokemon>({} as Pokemon);
+export const PokeContext = createContext({});
+
 
 type Props = {
     children? : React.ReactNode
 }
 export const PokeProvider: React.FC<Props> = ({children}) => {
     const [pokemonList, setPokemonList] = useState<Pokemon[]>();
-    const [pokeListCatch, setPokeListCatch] = useState<Pokemon>();
+    const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>();
     const [loading, setLoading] = useState(true);
 
     useEffect(()=>{
@@ -45,9 +46,9 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
 
     
     return (
-        {/* <PokeContext.Provider value={pokemonList} >
+        <PokeContext.Provider value={{pokemonList}} >
             {children}
-        </PokeContext.Provider> */}
+        </PokeContext.Provider>
     )
    
 }
