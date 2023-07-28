@@ -1,55 +1,69 @@
-import {createContext, useState, useEffect} from 'react';
+import {createContext, useState, useEffect, useContext} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
 import {endpointPokes,pokeApi} from '../service';
 
-export const PokeContext = createContext({});
 
+type Context = {
+    pokemonList: Pokemon[],
+    loading: boolean,
+    geracao: number;
+}
+
+export const PokeContext = createContext<Context>({} as Context);
 
 type Props = {
     children? : React.ReactNode
 }
 export const PokeProvider: React.FC<Props> = ({children}) => {
-    const [pokemonList, setPokemonList] = useState<Pokemon[]>();
-    const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>();
-    const [loading, setLoading] = useState(true);
+
+    const [pokemonList, setPokemonList] = useState<Pokemon[]>([]);
+    const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>([]);
+    const [geracao, setGeracao] = useState<number>(1);
+    const [loading, setLoading] = useState(false);
 
     useEffect(()=>{
         loadListPokemon();
     },[]);
 
-    useEffect(()=>{},[pokeListCatch]);
+    //useEffect(()=>{},[pokeListCatch]);
 
     async function loadListPokemon(): Promise<void>{
-        let list: Pokemon[] = [];
+        let list: Pokemon[] = []
         try {
-            const pokes = await endpointPokes(1)
+            setLoading(true);
+            const pokes = await endpointPokes(geracao)
             pokes?.map(elemento => {
                 list.push({
                     catch: false,
                     height: elemento.data.height,
                     id: elemento.data.order,
                     image: elemento.data.sprites.front_default,
-                    width: elemento.data.width,
+                    weight: elemento.data.weight,
                     name: elemento.data.name,
                     status: elemento.data.status,
                     types: elemento.data.types,
                 })
             })
             setPokemonList(list); 
-
+            setLoading(false);
         } catch (error) {
-            console.log(error)
+            console.log(error);
+            setLoading(false);
             return;
         }
     }
 
-    
     return (
-        <PokeContext.Provider value={{pokemonList}} >
+        <PokeContext.Provider value={{pokemonList, loading, geracao}} >
             {children}
         </PokeContext.Provider>
     )
    
 }
 
+//hook perssonalizado
+export function useGlobalContext(){
+    const context = useContext(PokeContext);
+    return context;
+}
