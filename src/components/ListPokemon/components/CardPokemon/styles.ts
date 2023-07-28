@@ -12,10 +12,9 @@ export const Container = styled.View`
 
 export const Infos = styled.View`
 
-    height: ${({theme}) => theme.px(100)}px;
-    width: ${({theme}) => theme.px(176)}px;
+    height: ${({theme}) => theme.px(105)}px;
+    width: ${({theme}) => theme.px(208)}px;
     border: 1px solid red;
-    margin-left: ${({theme}) => theme.px(16)}px;
 
 `;
 
@@ -38,7 +37,7 @@ export const Name = styled.Text`
 export const ContainerImg = styled.View`
     border: 1px solid green;
     height: 100%;
-    width: ${({theme}) => theme.px(126)}px;
+    width: ${({theme}) => theme.px(100)}px;
     justify-content: center;
     align-items: center;
     border-radius: ${({theme}) => theme.px(15)}px;

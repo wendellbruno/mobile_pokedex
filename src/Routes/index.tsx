@@ -5,9 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {Home, Catchs} from '../pages';
 import PokeballSvg from '../assets/svgs/pokeball.svg';
 import PokeballCapturadoSvg from '../assets/svgs/pokeballCapturado.svg';
-import {Ionicons} from '@expo/vector-icons'
 
-// import { Container } from './styles';
 
 export const Routes: React.FC = () => {
     const Stack = createStackNavigator();

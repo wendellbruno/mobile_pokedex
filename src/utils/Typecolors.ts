@@ -1,4 +1,4 @@
-export const typeColors = {
+const typeColors = {
 water: '#5090D6',
 dragon: '#0B6DC3',
 electric: '#F4D23C',
