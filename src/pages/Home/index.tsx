@@ -1,14 +1,17 @@
-import React, {useEffect, useState} from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import React, {useEffect, useState, useContext} from 'react';
+import { View, Text, TouchableOpacity, FlatList } from 'react-native';
 import {pokeApi, endpointPokes} from '../../service';
 import { AxiosResponse } from 'axios';
-import {InputSearch, SelectedGeracao} from '../../components'
+import {InputSearch, SelectedGeracao, ListPokemon} from '../../components'
+import {useGlobalContext, PokeContext} from '../../Context';
 
 import { Container } from './styles';
 
 export const Home: React.FC = () => {
 
-    const [pokes,setPokes] = useState<AxiosResponse[] | void >([]);
+  const {pokemonList} = useGlobalContext();
+
+   /*  const [pokes,setPokes] = useState<AxiosResponse[] | void >([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -20,12 +23,18 @@ export const Home: React.FC = () => {
         }
         handlePokeApi();
         
-    },[])
+    },[]) */
 
   return (
     <Container>
         <InputSearch />
         <SelectedGeracao />
+       {/*  <FlatList
+        data={pokemonList}
+        renderItem={({item}) => <Text>{item.name}</Text>}
+        
+        /> */}
+        <ListPokemon pokemon={pokemonList}   />
     </Container>
   )
   

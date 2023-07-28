@@ -37,7 +37,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
                 list.push({
                     catch: false,
                     height: elemento.data.height,
-                    id: elemento.data.order,
+                    id: elemento.data.id,
                     image: elemento.data.sprites.front_default,
                     weight: elemento.data.weight,
                     name: elemento.data.name,

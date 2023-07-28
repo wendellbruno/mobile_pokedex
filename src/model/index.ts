@@ -4,7 +4,7 @@ export interface Pokemon {
     image: string;
     weight: number;
     height: number;
-    catch?: boolean;
+    catch: boolean;
     types: any[];
     status: any[];
 }
