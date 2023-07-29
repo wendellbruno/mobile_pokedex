@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, ContainerType, TypeName, BgType, BgImgType, TesteSvg} from './styles';
+import { Container, ContainerType, TypeName, BgType} from './styles';
 import { Pokemon } from '../../model';
 import { getColorType } from '../../utils/Typecolors';
 import {svgs} from '../../assets/svgs'

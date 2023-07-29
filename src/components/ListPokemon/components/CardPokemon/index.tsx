@@ -3,14 +3,13 @@ import React from 'react';
 import { 
   Container, 
   Infos, 
-  ImagePoke, 
   Order, 
   Name, 
   ContainerImg
  } from './styles';
 import { Pokemon } from '../../../../model';
 import {getColorType} from '../../../../utils/Typecolors';
-import {ChipType} from '../../../ChipType';
+import {ImagePoke, ChipType} from  '../../../../components';
 
 type Poke = {
   pokemon: Pokemon
@@ -26,7 +25,7 @@ export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
         <ChipType types={pokemon.types} />
       </Infos>
       <ContainerImg style={{backgroundColor: getColorType(pokemon.types[0].type.name)}}>
-        <ImagePoke  source={{uri: pokemon.image}}/>
+        <ImagePoke image={{uri: pokemon.image}} type={pokemon.types[0].type.name} />
       </ContainerImg>
     </Container>
   );

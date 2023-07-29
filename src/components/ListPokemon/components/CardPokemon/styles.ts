@@ -38,12 +38,5 @@ export const ContainerImg = styled.View`
     justify-content: center;
     align-items: center;
     border-radius: ${({theme}) => theme.px(15)}px;
-    
-
 `
 
-export const ImagePoke = styled.ImageBackground`
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-`;

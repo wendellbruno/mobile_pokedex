@@ -38,14 +38,3 @@ export const BgType = styled.View`
     padding: ${({theme}) => theme.px(5)}px;
 `;
 
-export const BgImgType = styled.Image`
-    width: 15px;
-    height: 15px;
-    
-`;
-
-export const TesteSvg = styled.View`
-    width: 15px;
-    height: 15px;
-
-`;
