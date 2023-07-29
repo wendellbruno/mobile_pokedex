@@ -4,7 +4,6 @@ export const Container = styled.View`
     height: ${({theme}) => theme.px(75)}%;
     margin-top: ${({theme}) => theme.px(20)}px;
     align-items: center;
-    border: 1px solid red;
 `;
 
 export const Separator = styled.View`

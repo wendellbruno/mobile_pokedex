@@ -5,7 +5,6 @@ export const Container = styled.View`
     gap: ${({theme}) => theme.px(4)}px;
     width: 100%;
     height: ${({theme}) => theme.px(40)}px;
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
 `;
@@ -17,7 +16,6 @@ export const ContainerType = styled.View`
     align-items: center;
     justify-content: flex-start;
     padding: ${({theme}) => theme.px(5)}px;
-    border: 1px solid red;
     border-radius: ${({theme}) => theme.px(48)}px;
     gap: 4px;
 
@@ -34,9 +32,20 @@ export const BgType = styled.View`
     height: ${({theme}) => theme.px(32)}px;
     background-color: ${({theme}) => theme.colors.escala_de_cinza_branco};
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: ${({theme}) => theme.px(5)}px;
 `;
 
 export const BgImgType = styled.Image`
     width: 15px;
     height: 15px;
+    
+`;
+
+export const TesteSvg = styled.View`
+    width: 15px;
+    height: 15px;
+
 `;

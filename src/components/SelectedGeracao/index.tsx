@@ -1,19 +1,23 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import SelectDropdown from 'react-native-select-dropdown'
 import {FontAwesome} from '@expo/vector-icons';
 import { theme } from '../../global';
+import {useGlobalContext} from '../../Context';
 
 import {Container} from './styles'
 
+
 export const SelectedGeracao: React.FC = () => {
   const value: number[] = [1,2,3,4,5,6,7,8]  
+  const {selectGeneration} = useGlobalContext();
+  
   return (
- <Container>
+    <Container>
        <SelectDropdown
      data={value}
      onSelect={(selected, index) => {
-        console.log(selected,index)
+        selectGeneration(selected);
      }}
      defaultButtonText='Geração'
      dropdownIconPosition='right'

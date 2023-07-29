@@ -11,15 +11,13 @@ export const Container = styled.View`
 `
 
 export const Infos = styled.View`
-
+    padding-left: ${({theme}) => theme.px(15)}px;
     height: ${({theme}) => theme.px(105)}px;
     width: ${({theme}) => theme.px(208)}px;
-    border: 1px solid red;
 
 `;
 
 export const Order = styled.Text`
-    border: 1px solid blue;
     font-size: ${({theme}) => theme.px(12)}px;
     font-weight: 600;
     color: black;
@@ -35,7 +33,6 @@ export const Name = styled.Text`
 `;
 
 export const ContainerImg = styled.View`
-    border: 1px solid green;
     height: 100%;
     width: ${({theme}) => theme.px(100)}px;
     justify-content: center;
