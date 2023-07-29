@@ -5,11 +5,12 @@ import {
   Infos, 
   Order, 
   Name, 
-  ContainerImg
+  ContainerImg,
+  CatchView
  } from './styles';
 import { Pokemon } from '../../../../model';
 import {getColorType} from '../../../../utils/Typecolors';
-import {ImagePoke, ChipType} from  '../../../../components';
+import {ImagePoke, ChipType, CatchButton} from  '../../../../components';
 
 type Poke = {
   pokemon: Pokemon
@@ -23,6 +24,9 @@ export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
         <Order > {`Nº ${pokemon.id}`} </Order>
         <Name>{pokemon.name}</Name>
         <ChipType types={pokemon.types} />
+        <CatchView>
+        <CatchButton />
+        </CatchView>
       </Infos>
       <ContainerImg style={{backgroundColor: getColorType(pokemon.types[0].type.name)}}>
         <ImagePoke image={{uri: pokemon.image}} type={pokemon.types[0].type.name} />

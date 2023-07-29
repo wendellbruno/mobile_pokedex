@@ -40,3 +40,8 @@ export const ContainerImg = styled.View`
     border-radius: ${({theme}) => theme.px(15)}px;
 `
 
+export const CatchView = styled.View`
+    border: 1px solid red;
+    align-items: center;
+    margin-top: ${({theme}) => theme.px(15)}px;
+`;
