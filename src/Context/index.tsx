@@ -9,6 +9,7 @@ type Context = {
     loading: boolean,
     //geracao: number;
     selectGeneration: (geracao: number) => void;
+    cathProkemon: (catchPoke: boolean) => boolean
 }
 
 const PokeContext = createContext<Context>({} as Context);
@@ -22,6 +23,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
     const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>([]);
     const [geracao, setGeracao] = useState<number>(1);
     const [loading, setLoading] = useState(false);
+    const [catcher, setCatcher] = useState(false);
 
     useEffect(()=>{
         loadListPokemon();
@@ -40,7 +42,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
             const pokes = await endpointPokes(geracao)
             pokes?.map(elemento => {
                 list.push({
-                    catch: false,
+                    catch: catcher,
                     height: elemento.data.height,
                     id: elemento.data.id,
                     image: elemento.data.sprites.front_default,
@@ -63,8 +65,13 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         setGeracao(geracao)
     } 
 
+    function cathProkemon(cathcerPoke: boolean){
+        setCatcher(!cathcerPoke)
+        return catcher
+    }
+
     return (
-        <PokeContext.Provider value={{pokemonList, loading, selectGeneration}} >
+        <PokeContext.Provider value={{pokemonList, loading, selectGeneration, cathProkemon}} >
             {children}
         </PokeContext.Provider>
     )
