@@ -1,10 +1,6 @@
 import React from 'react';
-import { View, FlatList, Text } from 'react-native';
-import {useGlobalContext} from '../../Context'
-import { Pokemon } from '../../model';
+import {FlatList, TouchableOpacity} from 'react-native';
 import {CardPokemon} from './components/CardPokemon';
-
-//const {pokemonList} = useGlobalContext();
 
 import { Container, Separator } from './styles';
 
@@ -16,7 +12,11 @@ export function ListPokemon({pokemon}: any){
     <Container>
         <FlatList
          data={pokemon}
-         renderItem={ ({item})=> <CardPokemon pokemon={item}/> }
+         renderItem={ ({item})=> (
+          <TouchableOpacity onPress={() => console.log(item)}>
+            <CardPokemon pokemon={item}/>
+          </TouchableOpacity>
+         ) }
          ItemSeparatorComponent={Separator}
          /> 
      </Container>

@@ -18,7 +18,6 @@ type Poke = {
 
 export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
   
-  const colorbG = getColorType(pokemon.types[0].type.name);
   return (
     <Container>
       <Infos>
@@ -26,7 +25,7 @@ export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
         <Name>{pokemon.name}</Name>
         <ChipType types={pokemon.types} />
       </Infos>
-      <ContainerImg style={{backgroundColor: `${colorbG}`}}>
+      <ContainerImg style={{backgroundColor: getColorType(pokemon.types[0].type.name)}}>
         <ImagePoke  source={{uri: pokemon.image}}/>
       </ContainerImg>
     </Container>

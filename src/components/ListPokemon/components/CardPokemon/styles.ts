@@ -47,4 +47,3 @@ export const ImagePoke = styled.ImageBackground`
     height: 100px;
     object-fit: cover;
 `;
-
