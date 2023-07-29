@@ -1,16 +1,18 @@
 import React from 'react';
-import { View, TouchableOpacity } from 'react-native';
-
 import { ContainerTouchable } from './styles';
-
 import CatchOff from '../../assets/svgs/pokeball.svg';
 import CatchOn from '../../assets/svgs/pokeballCapturado.svg';
+import { Pokemon } from '../../model';
 
-
-export const CatchButton: React.FC = () => {
-  return (
+type Proprs = {
+  catch: Pokemon['catch']
+}
+export const CatchButton: React.FC<Proprs> = (proprs) => {
+   return (
     <ContainerTouchable>
-        <CatchOff />
+        {
+          proprs.catch === true ? (<CatchOn />) : (<CatchOff />)
+        }
     </ContainerTouchable>
   )
 }

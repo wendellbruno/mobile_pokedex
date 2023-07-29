@@ -25,7 +25,7 @@ export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
         <Name>{pokemon.name}</Name>
         <ChipType types={pokemon.types} />
         <CatchView>
-        <CatchButton />
+        <CatchButton catch={pokemon.catch}/>
         </CatchView>
       </Infos>
       <ContainerImg style={{backgroundColor: getColorType(pokemon.types[0].type.name)}}>
