@@ -7,10 +7,11 @@ import {endpointPokes,pokeApi} from '../service';
 type Context = {
     pokemonList: Pokemon[],
     loading: boolean,
-    geracao: number;
+    //geracao: number;
+    selectGeneration: (geracao: number) => void;
 }
 
-export const PokeContext = createContext<Context>({} as Context);
+const PokeContext = createContext<Context>({} as Context);
 
 type Props = {
     children? : React.ReactNode
@@ -25,6 +26,10 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
     useEffect(()=>{
         loadListPokemon();
     },[]);
+
+    useEffect(()=>{
+        loadListPokemon();
+    },[geracao]);
 
     //useEffect(()=>{},[pokeListCatch]);
 
@@ -54,8 +59,12 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         }
     }
 
+    function selectGeneration(geracao: number){
+        setGeracao(geracao)
+    } 
+
     return (
-        <PokeContext.Provider value={{pokemonList, loading, geracao}} >
+        <PokeContext.Provider value={{pokemonList, loading, selectGeneration}} >
             {children}
         </PokeContext.Provider>
     )
