@@ -1,5 +1,6 @@
 import axios, { Axios, AxiosResponse } from "axios";
 
+
 export const pokeApi = async (pokemon: string | number)=> {
     let data: AxiosResponse;
     try{

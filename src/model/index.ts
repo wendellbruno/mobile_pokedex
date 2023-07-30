@@ -6,5 +6,5 @@ export interface Pokemon {
     height: number;
     catch: boolean;
     types: any[];
-    status: any[];
+    stats: any[];
 }
