@@ -6,18 +6,21 @@ import { Pokemon } from '../../model';
 import {useGlobalContext} from '../../Context'
 
 type Proprs = {
-  catch: Pokemon['catch']
+  catch: Pokemon
 }
-export const CatchButton: React.FC<Proprs> = (proprs) => {
+export const CatchButton: React.FC<Pokemon> = (pokemon : Pokemon) => {
 
   const {cathProkemon} = useGlobalContext();
 
 
    return (
-    <ContainerTouchable onPress={() => cathProkemon(proprs.catch)}>
+    <ContainerTouchable onPress={() => cathProkemon(pokemon)}>
+      
         {
-          proprs.catch === true ? (<CatchOn />) : (<CatchOff />)
+          pokemon.catch === true ? (<CatchOn />) : (<CatchOff />)
         }
+      
+       
     </ContainerTouchable>
   )
 }

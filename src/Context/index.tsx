@@ -1,7 +1,7 @@
 import {createContext, useState, useEffect, useContext} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
-import {geracao01} from '../data'
+import {geracao01,geracao02,geracao03,geracao04,geracao05,geracao06,geracao07,geracao08} from '../data'
 import {endpointPokes,pokeApi} from '../service/';
 
 
@@ -10,8 +10,21 @@ type Context = {
     loading: boolean,
     //geracao: number;
     selectGeneration: (geracao: number) => void;
-    cathProkemon: (catchPoke: boolean) => boolean
+    cathProkemon: (catchPoke: Pokemon) => void;
 }
+
+const generation = [
+    geracao01,
+    geracao02,
+    geracao03,
+    geracao04,
+    geracao05,
+    geracao06,
+    geracao07,
+    geracao08
+]
+    
+
 
 const PokeContext = createContext<Context>({} as Context);
 
@@ -40,8 +53,21 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         let list: Pokemon[] = []
         try {
             setLoading(true);
-            const pokes = await endpointPokes(geracao)
-            pokes?.map(elemento => {
+           /*  generation[geracao -1 ].forEach(elemento =>{
+                list.push({
+                    catch: catcher,
+                    height: elemento.height,
+                    id: elemento.id,
+                    image: elemento.image,
+                    weight: elemento.weight,
+                    name: elemento.name,
+                    stats: elemento.stats,
+                    types: elemento.types,
+                })
+                
+            }) */
+            /* const pokes = await endpointPokes(geracao)
+             pokes?.map(elemento => {
                 list.push({
                     catch: catcher,
                     height: elemento.data.height,
@@ -52,8 +78,8 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
                     stats: elemento.data.stats,
                     types: elemento.data.types,
                 })
-            })
-            setPokemonList(list); 
+            }) */
+            setPokemonList(generation[geracao -1]); 
             setLoading(false);
         } catch (error) {
             console.log(error);
@@ -66,9 +92,11 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         setGeracao(geracao)
     } 
 
-    function cathProkemon(cathcerPoke: boolean){
-        setCatcher(!cathcerPoke)
-        return catcher
+    function cathProkemon(cathcerPoke: Pokemon) : void{
+
+        !cathcerPoke.catch;
+        pokemonList.pop()
+        
     }
 
     return (

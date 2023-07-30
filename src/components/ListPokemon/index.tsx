@@ -12,6 +12,7 @@ export function ListPokemon({pokemon}: any){
     <Container>
         <FlatList
          data={pokemon}
+         keyExtractor={pokemon => pokemon.id}
          renderItem={ ({item})=> (
           <TouchableOpacity onPress={() => console.log(item)}>
             <CardPokemon pokemon={item}/>
