@@ -3,7 +3,6 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
 import {geracao01} from '../data'
 import {endpointPokes,pokeApi} from '../service/';
-import {writeFile} from 'fs'
 
 
 type Context = {
@@ -23,7 +22,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
 
     const [pokemonList, setPokemonList] = useState<Pokemon[]>([]);
     const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>([]);
-    const [geracao, setGeracao] = useState<number>(8);
+    const [geracao, setGeracao] = useState<number>(1);
     const [loading, setLoading] = useState(false);
     const [catcher, setCatcher] = useState(false);
 
