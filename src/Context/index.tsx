@@ -94,8 +94,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
 
     function cathProkemon(cathcerPoke: Pokemon) : void{
 
-        !cathcerPoke.catch;
-        pokemonList.pop()
+        
         
     }
 
