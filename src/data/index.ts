@@ -3,6 +3,7 @@ import { Pokemon } from "../model";
 export const geracao01: Pokemon[] = [
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 1,
     image:
@@ -60,6 +61,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 2,
     image:
@@ -117,6 +119,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 20,
     id: 3,
     image:
@@ -174,6 +177,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 4,
     image:
@@ -227,6 +231,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 5,
     image:
@@ -280,6 +285,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 6,
     image:
@@ -337,6 +343,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 7,
     image:
@@ -390,6 +397,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 8,
     image:
@@ -443,6 +451,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 9,
     image:
@@ -496,6 +505,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 10,
     image:
@@ -549,6 +559,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 11,
     image:
@@ -602,6 +613,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 12,
     image:
@@ -659,6 +671,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 13,
     image:
@@ -716,6 +729,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 14,
     image:
@@ -773,6 +787,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 15,
     image:
@@ -830,6 +845,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 16,
     image:
@@ -887,6 +903,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 17,
     image:
@@ -944,6 +961,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 18,
     image:
@@ -1001,6 +1019,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 19,
     image:
@@ -1054,6 +1073,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 20,
     image:
@@ -1107,6 +1127,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 21,
     image:
@@ -1164,6 +1185,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 22,
     image:
@@ -1221,6 +1243,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 20,
     id: 23,
     image:
@@ -1274,6 +1297,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 35,
     id: 24,
     image:
@@ -1327,6 +1351,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 25,
     image:
@@ -1380,6 +1405,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 26,
     image:
@@ -1433,6 +1459,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 27,
     image:
@@ -1486,6 +1513,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 28,
     image:
@@ -1539,6 +1567,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 29,
     image:
@@ -1592,6 +1621,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 30,
     image:
@@ -1645,6 +1675,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 31,
     image:
@@ -1702,6 +1733,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 32,
     image:
@@ -1755,6 +1787,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 33,
     image:
@@ -1808,6 +1841,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 34,
     image:
@@ -1865,6 +1899,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 35,
     image:
@@ -1918,6 +1953,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 36,
     image:
@@ -1971,6 +2007,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 37,
     image:
@@ -2024,6 +2061,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 38,
     image:
@@ -2077,6 +2115,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 39,
     image:
@@ -2134,6 +2173,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 40,
     image:
@@ -2191,6 +2231,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 41,
     image:
@@ -2248,6 +2289,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 42,
     image:
@@ -2305,6 +2347,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 43,
     image:
@@ -2362,6 +2405,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 44,
     image:
@@ -2419,6 +2463,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 45,
     image:
@@ -2476,6 +2521,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 46,
     image:
@@ -2533,6 +2579,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 47,
     image:
@@ -2590,6 +2637,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 48,
     image:
@@ -2647,6 +2695,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 49,
     image:
@@ -2704,6 +2753,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 2,
     id: 50,
     image:
@@ -2757,6 +2807,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 51,
     image:
@@ -2810,6 +2861,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 52,
     image:
@@ -2863,6 +2915,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 53,
     image:
@@ -2916,6 +2969,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 54,
     image:
@@ -2969,6 +3023,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 55,
     image:
@@ -3022,6 +3077,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 56,
     image:
@@ -3075,6 +3131,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 57,
     image:
@@ -3128,6 +3185,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 58,
     image:
@@ -3181,6 +3239,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 19,
     id: 59,
     image:
@@ -3234,6 +3293,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 60,
     image:
@@ -3287,6 +3347,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 61,
     image:
@@ -3340,6 +3401,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 62,
     image:
@@ -3397,6 +3459,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 63,
     image:
@@ -3450,6 +3513,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 64,
     image:
@@ -3503,6 +3567,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 65,
     image:
@@ -3556,6 +3621,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 66,
     image:
@@ -3609,6 +3675,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 67,
     image:
@@ -3662,6 +3729,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 68,
     image:
@@ -3715,6 +3783,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 7,
     id: 69,
     image:
@@ -3772,6 +3841,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 70,
     image:
@@ -3829,6 +3899,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 71,
     image:
@@ -3886,6 +3957,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 72,
     image:
@@ -3943,6 +4015,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 73,
     image:
@@ -4000,6 +4073,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 74,
     image:
@@ -4057,6 +4131,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 75,
     image:
@@ -4114,6 +4189,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 76,
     image:
@@ -4171,6 +4247,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 77,
     image:
@@ -4224,6 +4301,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 78,
     image:
@@ -4277,6 +4355,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 79,
     image:
@@ -4334,6 +4413,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 80,
     image:
@@ -4391,6 +4471,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 81,
     image:
@@ -4448,6 +4529,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 82,
     image:
@@ -4505,6 +4587,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 83,
     image:
@@ -4562,6 +4645,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 84,
     image:
@@ -4619,6 +4703,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 18,
     id: 85,
     image:
@@ -4676,6 +4761,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 86,
     image:
@@ -4729,6 +4815,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 87,
     image:
@@ -4786,6 +4873,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 88,
     image:
@@ -4839,6 +4927,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 89,
     image:
@@ -4892,6 +4981,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 90,
     image:
@@ -4945,6 +5035,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 91,
     image:
@@ -5002,6 +5093,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 92,
     image:
@@ -5059,6 +5151,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 93,
     image:
@@ -5116,6 +5209,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 94,
     image:
@@ -5173,6 +5267,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 88,
     id: 95,
     image:
@@ -5230,6 +5325,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 96,
     image:
@@ -5283,6 +5379,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 97,
     image:
@@ -5336,6 +5433,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 98,
     image:
@@ -5389,6 +5487,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 99,
     image:
@@ -5442,6 +5541,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 100,
     image:
@@ -5495,6 +5595,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 101,
     image:
@@ -5548,6 +5649,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 102,
     image:
@@ -5605,6 +5707,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 20,
     id: 103,
     image:
@@ -5662,6 +5765,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 104,
     image:
@@ -5715,6 +5819,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 105,
     image:
@@ -5768,6 +5873,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 106,
     image:
@@ -5821,6 +5927,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 107,
     image:
@@ -5874,6 +5981,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 108,
     image:
@@ -5927,6 +6035,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 109,
     image:
@@ -5980,6 +6089,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 110,
     image:
@@ -6033,6 +6143,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 111,
     image:
@@ -6090,6 +6201,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 19,
     id: 112,
     image:
@@ -6147,6 +6259,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 113,
     image:
@@ -6200,6 +6313,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 114,
     image:
@@ -6253,6 +6367,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 22,
     id: 115,
     image:
@@ -6306,6 +6421,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 116,
     image:
@@ -6359,6 +6475,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 12,
     id: 117,
     image:
@@ -6412,6 +6529,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 6,
     id: 118,
     image:
@@ -6465,6 +6583,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 119,
     image:
@@ -6518,6 +6637,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 120,
     image:
@@ -6571,6 +6691,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 121,
     image:
@@ -6628,6 +6749,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 122,
     image:
@@ -6685,6 +6807,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 123,
     image:
@@ -6742,6 +6865,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 124,
     image:
@@ -6799,6 +6923,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 11,
     id: 125,
     image:
@@ -6852,6 +6977,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 126,
     image:
@@ -6905,6 +7031,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 15,
     id: 127,
     image:
@@ -6958,6 +7085,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 14,
     id: 128,
     image:
@@ -7011,6 +7139,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 129,
     image:
@@ -7064,6 +7193,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 65,
     id: 130,
     image:
@@ -7121,6 +7251,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 25,
     id: 131,
     image:
@@ -7178,6 +7309,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 132,
     image:
@@ -7231,6 +7363,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 3,
     id: 133,
     image:
@@ -7284,6 +7417,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 134,
     image:
@@ -7337,6 +7471,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 135,
     image:
@@ -7390,6 +7525,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 9,
     id: 136,
     image:
@@ -7443,6 +7579,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 8,
     id: 137,
     image:
@@ -7496,6 +7633,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 138,
     image:
@@ -7553,6 +7691,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 10,
     id: 139,
     image:
@@ -7610,6 +7749,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 5,
     id: 140,
     image:
@@ -7667,6 +7807,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 13,
     id: 141,
     image:
@@ -7724,6 +7865,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 18,
     id: 142,
     image:
@@ -7781,6 +7923,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 21,
     id: 143,
     image:
@@ -7834,6 +7977,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 17,
     id: 144,
     image:
@@ -7891,6 +8035,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 16,
     id: 145,
     image:
@@ -7948,6 +8093,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 20,
     id: 146,
     image:
@@ -8005,6 +8151,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 18,
     id: 147,
     image:
@@ -8058,6 +8205,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 40,
     id: 148,
     image:
@@ -8111,6 +8259,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 22,
     id: 149,
     image:
@@ -8168,6 +8317,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 20,
     id: 150,
     image:
@@ -8221,6 +8371,7 @@ export const geracao01: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 1,
     height: 4,
     id: 151,
     image:
@@ -8272,12 +8423,12 @@ export const geracao01: Pokemon[] = [
       },
     ],
   },
-  
 ];
 
 export const geracao02: Pokemon[] = [
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 152,
     image:
@@ -8331,6 +8482,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 153,
     image:
@@ -8384,6 +8536,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 154,
     image:
@@ -8437,6 +8590,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 155,
     image:
@@ -8490,6 +8644,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 156,
     image:
@@ -8543,6 +8698,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 17,
     id: 157,
     image:
@@ -8596,6 +8752,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 158,
     image:
@@ -8649,6 +8806,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 159,
     image:
@@ -8702,6 +8860,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 23,
     id: 160,
     image:
@@ -8755,6 +8914,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 161,
     image:
@@ -8808,6 +8968,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 162,
     image:
@@ -8861,6 +9022,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 7,
     id: 163,
     image:
@@ -8918,6 +9080,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 16,
     id: 164,
     image:
@@ -8975,6 +9138,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 10,
     id: 165,
     image:
@@ -9032,6 +9196,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 166,
     image:
@@ -9089,6 +9254,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 167,
     image:
@@ -9146,6 +9312,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 168,
     image:
@@ -9203,6 +9370,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 169,
     image:
@@ -9260,6 +9428,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 170,
     image:
@@ -9317,6 +9486,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 171,
     image:
@@ -9374,6 +9544,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 3,
     id: 172,
     image:
@@ -9427,6 +9598,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 3,
     id: 173,
     image:
@@ -9480,6 +9652,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 3,
     id: 174,
     image:
@@ -9537,6 +9710,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 3,
     id: 175,
     image:
@@ -9590,6 +9764,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 176,
     image:
@@ -9647,6 +9822,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 2,
     id: 177,
     image:
@@ -9704,6 +9880,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 15,
     id: 178,
     image:
@@ -9761,6 +9938,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 179,
     image:
@@ -9814,6 +9992,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 180,
     image:
@@ -9867,6 +10046,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 181,
     image:
@@ -9920,6 +10100,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 182,
     image:
@@ -9973,6 +10154,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 183,
     image:
@@ -10030,6 +10212,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 184,
     image:
@@ -10087,6 +10270,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 185,
     image:
@@ -10140,6 +10324,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 186,
     image:
@@ -10193,6 +10378,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 187,
     image:
@@ -10250,6 +10436,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 188,
     image:
@@ -10307,6 +10494,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 189,
     image:
@@ -10364,6 +10552,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 190,
     image:
@@ -10417,6 +10606,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 3,
     id: 191,
     image:
@@ -10470,6 +10660,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 192,
     image:
@@ -10523,6 +10714,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 193,
     image:
@@ -10580,6 +10772,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 194,
     image:
@@ -10637,6 +10830,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 195,
     image:
@@ -10694,6 +10888,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 196,
     image:
@@ -10747,6 +10942,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 10,
     id: 197,
     image:
@@ -10800,6 +10996,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 198,
     image:
@@ -10857,6 +11054,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 20,
     id: 199,
     image:
@@ -10914,6 +11112,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 7,
     id: 200,
     image:
@@ -10967,6 +11166,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 201,
     image:
@@ -11020,6 +11220,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 13,
     id: 202,
     image:
@@ -11073,6 +11274,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 15,
     id: 203,
     image:
@@ -11130,6 +11332,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 204,
     image:
@@ -11183,6 +11386,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 205,
     image:
@@ -11240,6 +11444,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 15,
     id: 206,
     image:
@@ -11293,6 +11498,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 207,
     image:
@@ -11350,6 +11556,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 92,
     id: 208,
     image:
@@ -11407,6 +11614,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 209,
     image:
@@ -11460,6 +11668,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 210,
     image:
@@ -11513,6 +11722,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 211,
     image:
@@ -11570,6 +11780,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 212,
     image:
@@ -11627,6 +11838,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 213,
     image:
@@ -11684,6 +11896,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 15,
     id: 214,
     image:
@@ -11741,6 +11954,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 215,
     image:
@@ -11798,6 +12012,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 216,
     image:
@@ -11851,6 +12066,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 217,
     image:
@@ -11904,6 +12120,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 7,
     id: 218,
     image:
@@ -11957,6 +12174,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 8,
     id: 219,
     image:
@@ -12014,6 +12232,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 220,
     image:
@@ -12071,6 +12290,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 221,
     image:
@@ -12128,6 +12348,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 222,
     image:
@@ -12185,6 +12406,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 223,
     image:
@@ -12238,6 +12460,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 224,
     image:
@@ -12291,6 +12514,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 9,
     id: 225,
     image:
@@ -12348,6 +12572,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 21,
     id: 226,
     image:
@@ -12405,6 +12630,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 17,
     id: 227,
     image:
@@ -12462,6 +12688,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 228,
     image:
@@ -12519,6 +12746,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 229,
     image:
@@ -12576,6 +12804,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 18,
     id: 230,
     image:
@@ -12633,6 +12862,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 5,
     id: 231,
     image:
@@ -12686,6 +12916,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 11,
     id: 232,
     image:
@@ -12739,6 +12970,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 233,
     image:
@@ -12792,6 +13024,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 234,
     image:
@@ -12845,6 +13078,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 235,
     image:
@@ -12898,6 +13132,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 7,
     id: 236,
     image:
@@ -12951,6 +13186,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 14,
     id: 237,
     image:
@@ -13004,6 +13240,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 4,
     id: 238,
     image:
@@ -13061,6 +13298,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 239,
     image:
@@ -13114,6 +13352,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 7,
     id: 240,
     image:
@@ -13167,6 +13406,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 241,
     image:
@@ -13220,6 +13460,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 15,
     id: 242,
     image:
@@ -13273,6 +13514,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 19,
     id: 243,
     image:
@@ -13326,6 +13568,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 21,
     id: 244,
     image:
@@ -13379,6 +13622,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 20,
     id: 245,
     image:
@@ -13432,6 +13676,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 246,
     image:
@@ -13489,6 +13734,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 12,
     id: 247,
     image:
@@ -13546,6 +13792,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 20,
     id: 248,
     image:
@@ -13603,6 +13850,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 52,
     id: 249,
     image:
@@ -13660,6 +13908,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 38,
     id: 250,
     image:
@@ -13717,6 +13966,7 @@ export const geracao02: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 2,
     height: 6,
     id: 251,
     image:
@@ -13772,12 +14022,12 @@ export const geracao02: Pokemon[] = [
       },
     ],
   },
-  
 ];
 
 export const geracao03: Pokemon[] = [
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 252,
     image:
@@ -13831,6 +14081,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 9,
     id: 253,
     image:
@@ -13884,6 +14135,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 17,
     id: 254,
     image:
@@ -13937,6 +14189,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 255,
     image:
@@ -13990,6 +14243,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 9,
     id: 256,
     image:
@@ -14047,6 +14301,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 19,
     id: 257,
     image:
@@ -14104,6 +14359,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 258,
     image:
@@ -14157,6 +14413,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 259,
     image:
@@ -14214,6 +14471,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 260,
     image:
@@ -14271,6 +14529,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 261,
     image:
@@ -14324,6 +14583,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 262,
     image:
@@ -14377,6 +14637,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 263,
     image:
@@ -14430,6 +14691,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 264,
     image:
@@ -14483,6 +14745,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 3,
     id: 265,
     image:
@@ -14536,6 +14799,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 266,
     image:
@@ -14589,6 +14853,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 267,
     image:
@@ -14646,6 +14911,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 268,
     image:
@@ -14699,6 +14965,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 269,
     image:
@@ -14756,6 +15023,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 270,
     image:
@@ -14813,6 +15081,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 271,
     image:
@@ -14870,6 +15139,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 272,
     image:
@@ -14927,6 +15197,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 273,
     image:
@@ -14980,6 +15251,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 274,
     image:
@@ -15037,6 +15309,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 13,
     id: 275,
     image:
@@ -15094,6 +15367,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 3,
     id: 276,
     image:
@@ -15151,6 +15425,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 277,
     image:
@@ -15208,6 +15483,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 278,
     image:
@@ -15265,6 +15541,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 279,
     image:
@@ -15322,6 +15599,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 280,
     image:
@@ -15379,6 +15657,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 281,
     image:
@@ -15436,6 +15715,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 16,
     id: 282,
     image:
@@ -15493,6 +15773,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 283,
     image:
@@ -15550,6 +15831,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 284,
     image:
@@ -15607,6 +15889,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 285,
     image:
@@ -15660,6 +15943,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 286,
     image:
@@ -15717,6 +16001,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 287,
     image:
@@ -15770,6 +16055,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 14,
     id: 288,
     image:
@@ -15823,6 +16109,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 20,
     id: 289,
     image:
@@ -15876,6 +16163,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 290,
     image:
@@ -15933,6 +16221,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 291,
     image:
@@ -15990,6 +16279,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 292,
     image:
@@ -16047,6 +16337,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 293,
     image:
@@ -16100,6 +16391,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 294,
     image:
@@ -16153,6 +16445,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 295,
     image:
@@ -16206,6 +16499,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 296,
     image:
@@ -16259,6 +16553,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 23,
     id: 297,
     image:
@@ -16312,6 +16607,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 2,
     id: 298,
     image:
@@ -16369,6 +16665,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 299,
     image:
@@ -16422,6 +16719,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 300,
     image:
@@ -16475,6 +16773,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 301,
     image:
@@ -16528,6 +16827,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 302,
     image:
@@ -16585,6 +16885,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 303,
     image:
@@ -16642,6 +16943,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 304,
     image:
@@ -16699,6 +17001,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 9,
     id: 305,
     image:
@@ -16756,6 +17059,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 21,
     id: 306,
     image:
@@ -16813,6 +17117,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 307,
     image:
@@ -16870,6 +17175,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 13,
     id: 308,
     image:
@@ -16927,6 +17233,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 309,
     image:
@@ -16980,6 +17287,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 310,
     image:
@@ -17033,6 +17341,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 311,
     image:
@@ -17086,6 +17395,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 312,
     image:
@@ -17139,6 +17449,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 313,
     image:
@@ -17192,6 +17503,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 314,
     image:
@@ -17245,6 +17557,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 3,
     id: 315,
     image:
@@ -17302,6 +17615,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 316,
     image:
@@ -17355,6 +17669,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 17,
     id: 317,
     image:
@@ -17408,6 +17723,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 318,
     image:
@@ -17465,6 +17781,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 18,
     id: 319,
     image:
@@ -17522,6 +17839,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 20,
     id: 320,
     image:
@@ -17575,6 +17893,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 145,
     id: 321,
     image:
@@ -17628,6 +17947,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 322,
     image:
@@ -17685,6 +18005,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 19,
     id: 323,
     image:
@@ -17742,6 +18063,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 324,
     image:
@@ -17795,6 +18117,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 325,
     image:
@@ -17848,6 +18171,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 9,
     id: 326,
     image:
@@ -17901,6 +18225,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 327,
     image:
@@ -17954,6 +18279,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 328,
     image:
@@ -18007,6 +18333,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 329,
     image:
@@ -18064,6 +18391,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 20,
     id: 330,
     image:
@@ -18121,6 +18449,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 331,
     image:
@@ -18174,6 +18503,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 13,
     id: 332,
     image:
@@ -18231,6 +18561,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 333,
     image:
@@ -18288,6 +18619,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 334,
     image:
@@ -18345,6 +18677,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 13,
     id: 335,
     image:
@@ -18398,6 +18731,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 27,
     id: 336,
     image:
@@ -18451,6 +18785,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 337,
     image:
@@ -18508,6 +18843,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 338,
     image:
@@ -18565,6 +18901,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 339,
     image:
@@ -18622,6 +18959,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 9,
     id: 340,
     image:
@@ -18679,6 +19017,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 341,
     image:
@@ -18732,6 +19071,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 342,
     image:
@@ -18789,6 +19129,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 5,
     id: 343,
     image:
@@ -18846,6 +19187,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 344,
     image:
@@ -18903,6 +19245,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 345,
     image:
@@ -18960,6 +19303,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 346,
     image:
@@ -19017,6 +19361,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 347,
     image:
@@ -19074,6 +19419,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 348,
     image:
@@ -19131,6 +19477,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 349,
     image:
@@ -19184,6 +19531,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 62,
     id: 350,
     image:
@@ -19237,6 +19585,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 3,
     id: 351,
     image:
@@ -19290,6 +19639,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 352,
     image:
@@ -19343,6 +19693,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 353,
     image:
@@ -19396,6 +19747,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 354,
     image:
@@ -19449,6 +19801,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 355,
     image:
@@ -19502,6 +19855,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 16,
     id: 356,
     image:
@@ -19555,6 +19909,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 20,
     id: 357,
     image:
@@ -19612,6 +19967,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 358,
     image:
@@ -19665,6 +20021,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 359,
     image:
@@ -19718,6 +20075,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 360,
     image:
@@ -19771,6 +20129,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 7,
     id: 361,
     image:
@@ -19824,6 +20183,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 362,
     image:
@@ -19877,6 +20237,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 8,
     id: 363,
     image:
@@ -19934,6 +20295,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 364,
     image:
@@ -19991,6 +20353,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 14,
     id: 365,
     image:
@@ -20048,6 +20411,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 4,
     id: 366,
     image:
@@ -20101,6 +20465,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 17,
     id: 367,
     image:
@@ -20154,6 +20519,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 18,
     id: 368,
     image:
@@ -20207,6 +20573,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 10,
     id: 369,
     image:
@@ -20264,6 +20631,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 370,
     image:
@@ -20317,6 +20685,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 371,
     image:
@@ -20370,6 +20739,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 11,
     id: 372,
     image:
@@ -20423,6 +20793,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 15,
     id: 373,
     image:
@@ -20480,6 +20851,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 6,
     id: 374,
     image:
@@ -20537,6 +20909,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 12,
     id: 375,
     image:
@@ -20594,6 +20967,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 16,
     id: 376,
     image:
@@ -20651,6 +21025,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 17,
     id: 377,
     image:
@@ -20704,6 +21079,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 18,
     id: 378,
     image:
@@ -20757,6 +21133,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 19,
     id: 379,
     image:
@@ -20810,6 +21187,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 14,
     id: 380,
     image:
@@ -20867,6 +21245,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 20,
     id: 381,
     image:
@@ -20924,6 +21303,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 45,
     id: 382,
     image:
@@ -20977,6 +21357,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 35,
     id: 383,
     image:
@@ -21030,6 +21411,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 70,
     id: 384,
     image:
@@ -21087,6 +21469,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 3,
     id: 385,
     image:
@@ -21144,6 +21527,7 @@ export const geracao03: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 3,
     height: 17,
     id: 386,
     image:
@@ -21195,12 +21579,13 @@ export const geracao03: Pokemon[] = [
       },
     ],
   },
-  
 ];
+
 
 export const geracao04: Pokemon[] = [
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 387,
     image:
@@ -21254,6 +21639,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 11,
     id: 388,
     image:
@@ -21307,6 +21693,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 22,
     id: 389,
     image:
@@ -21364,6 +21751,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 390,
     image:
@@ -21417,6 +21805,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 391,
     image:
@@ -21474,6 +21863,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 392,
     image:
@@ -21531,6 +21921,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 393,
     image:
@@ -21584,6 +21975,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 8,
     id: 394,
     image:
@@ -21637,6 +22029,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 17,
     id: 395,
     image:
@@ -21694,6 +22087,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 396,
     image:
@@ -21751,6 +22145,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 6,
     id: 397,
     image:
@@ -21808,6 +22203,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 398,
     image:
@@ -21865,6 +22261,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 399,
     image:
@@ -21918,6 +22315,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 400,
     image:
@@ -21975,6 +22373,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 401,
     image:
@@ -22028,6 +22427,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 402,
     image:
@@ -22081,6 +22481,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 403,
     image:
@@ -22134,6 +22535,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 404,
     image:
@@ -22187,6 +22589,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 14,
     id: 405,
     image:
@@ -22240,6 +22643,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 2,
     id: 406,
     image:
@@ -22297,6 +22701,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 407,
     image:
@@ -22354,6 +22759,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 408,
     image:
@@ -22407,6 +22813,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 16,
     id: 409,
     image:
@@ -22460,6 +22867,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 410,
     image:
@@ -22517,6 +22925,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 13,
     id: 411,
     image:
@@ -22574,6 +22983,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 2,
     id: 412,
     image:
@@ -22627,6 +23037,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 413,
     image:
@@ -22684,6 +23095,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 414,
     image:
@@ -22741,6 +23153,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 415,
     image:
@@ -22798,6 +23211,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 416,
     image:
@@ -22855,6 +23269,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 417,
     image:
@@ -22908,6 +23323,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 7,
     id: 418,
     image:
@@ -22961,6 +23377,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 11,
     id: 419,
     image:
@@ -23014,6 +23431,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 420,
     image:
@@ -23067,6 +23485,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 421,
     image:
@@ -23120,6 +23539,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 422,
     image:
@@ -23173,6 +23593,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 423,
     image:
@@ -23230,6 +23651,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 424,
     image:
@@ -23283,6 +23705,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 425,
     image:
@@ -23340,6 +23763,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 426,
     image:
@@ -23397,6 +23821,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 427,
     image:
@@ -23450,6 +23875,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 428,
     image:
@@ -23503,6 +23929,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 429,
     image:
@@ -23556,6 +23983,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 430,
     image:
@@ -23613,6 +24041,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 431,
     image:
@@ -23666,6 +24095,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 432,
     image:
@@ -23719,6 +24149,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 2,
     id: 433,
     image:
@@ -23772,6 +24203,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 434,
     image:
@@ -23829,6 +24261,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 435,
     image:
@@ -23886,6 +24319,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 436,
     image:
@@ -23943,6 +24377,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 13,
     id: 437,
     image:
@@ -24000,6 +24435,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 438,
     image:
@@ -24053,6 +24489,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 6,
     id: 439,
     image:
@@ -24110,6 +24547,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 6,
     id: 440,
     image:
@@ -24163,6 +24601,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 5,
     id: 441,
     image:
@@ -24220,6 +24659,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 442,
     image:
@@ -24277,6 +24717,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 7,
     id: 443,
     image:
@@ -24334,6 +24775,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 14,
     id: 444,
     image:
@@ -24391,6 +24833,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 19,
     id: 445,
     image:
@@ -24448,6 +24891,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 6,
     id: 446,
     image:
@@ -24501,6 +24945,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 7,
     id: 447,
     image:
@@ -24554,6 +24999,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 448,
     image:
@@ -24611,6 +25057,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 8,
     id: 449,
     image:
@@ -24664,6 +25111,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 20,
     id: 450,
     image:
@@ -24717,6 +25165,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 8,
     id: 451,
     image:
@@ -24774,6 +25223,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 13,
     id: 452,
     image:
@@ -24831,6 +25281,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 7,
     id: 453,
     image:
@@ -24888,6 +25339,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 13,
     id: 454,
     image:
@@ -24945,6 +25397,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 14,
     id: 455,
     image:
@@ -24998,6 +25451,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 456,
     image:
@@ -25051,6 +25505,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 457,
     image:
@@ -25104,6 +25559,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 458,
     image:
@@ -25161,6 +25617,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 459,
     image:
@@ -25218,6 +25675,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 22,
     id: 460,
     image:
@@ -25275,6 +25733,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 11,
     id: 461,
     image:
@@ -25332,6 +25791,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 12,
     id: 462,
     image:
@@ -25389,6 +25849,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 17,
     id: 463,
     image:
@@ -25442,6 +25903,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 24,
     id: 464,
     image:
@@ -25499,6 +25961,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 20,
     id: 465,
     image:
@@ -25552,6 +26015,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 18,
     id: 466,
     image:
@@ -25605,6 +26069,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 16,
     id: 467,
     image:
@@ -25658,6 +26123,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 15,
     id: 468,
     image:
@@ -25715,6 +26181,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 19,
     id: 469,
     image:
@@ -25772,6 +26239,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 10,
     id: 470,
     image:
@@ -25825,6 +26293,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 8,
     id: 471,
     image:
@@ -25878,6 +26347,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 20,
     id: 472,
     image:
@@ -25935,6 +26405,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 25,
     id: 473,
     image:
@@ -25992,6 +26463,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 9,
     id: 474,
     image:
@@ -26045,6 +26517,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 16,
     id: 475,
     image:
@@ -26102,6 +26575,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 14,
     id: 476,
     image:
@@ -26159,6 +26633,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 22,
     id: 477,
     image:
@@ -26212,6 +26687,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 13,
     id: 478,
     image:
@@ -26269,6 +26745,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 479,
     image:
@@ -26326,6 +26803,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 480,
     image:
@@ -26379,6 +26857,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 481,
     image:
@@ -26432,6 +26911,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 482,
     image:
@@ -26485,6 +26965,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 54,
     id: 483,
     image:
@@ -26542,6 +27023,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 42,
     id: 484,
     image:
@@ -26599,6 +27081,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 17,
     id: 485,
     image:
@@ -26656,6 +27139,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 37,
     id: 486,
     image:
@@ -26709,6 +27193,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 45,
     id: 487,
     image:
@@ -26766,6 +27251,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 15,
     id: 488,
     image:
@@ -26819,6 +27305,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 4,
     id: 489,
     image:
@@ -26872,6 +27359,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 3,
     id: 490,
     image:
@@ -26925,6 +27413,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 15,
     id: 491,
     image:
@@ -26978,6 +27467,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 2,
     id: 492,
     image:
@@ -27031,6 +27521,7 @@ export const geracao04: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 4,
     height: 32,
     id: 493,
     image:
@@ -27082,12 +27573,13 @@ export const geracao04: Pokemon[] = [
       },
     ],
   },
-  
 ];
+
 
 export const geracao05: Pokemon[] = [
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 494,
     image:
@@ -27145,6 +27637,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 495,
     image:
@@ -27198,6 +27691,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 496,
     image:
@@ -27251,6 +27745,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 33,
     id: 497,
     image:
@@ -27304,6 +27799,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 498,
     image:
@@ -27357,6 +27853,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 499,
     image:
@@ -27414,6 +27911,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 500,
     image:
@@ -27471,6 +27969,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 501,
     image:
@@ -27524,6 +28023,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 502,
     image:
@@ -27577,6 +28077,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 503,
     image:
@@ -27630,6 +28131,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 504,
     image:
@@ -27683,6 +28185,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 505,
     image:
@@ -27736,6 +28239,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 506,
     image:
@@ -27789,6 +28293,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 9,
     id: 507,
     image:
@@ -27842,6 +28347,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 508,
     image:
@@ -27895,6 +28401,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 509,
     image:
@@ -27948,6 +28455,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 510,
     image:
@@ -28001,6 +28509,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 511,
     image:
@@ -28054,6 +28563,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 512,
     image:
@@ -28107,6 +28617,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 513,
     image:
@@ -28160,6 +28671,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 514,
     image:
@@ -28213,6 +28725,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 515,
     image:
@@ -28266,6 +28779,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 516,
     image:
@@ -28319,6 +28833,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 517,
     image:
@@ -28372,6 +28887,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 518,
     image:
@@ -28425,6 +28941,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 519,
     image:
@@ -28482,6 +28999,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 520,
     image:
@@ -28539,6 +29057,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 521,
     image:
@@ -28596,6 +29115,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 522,
     image:
@@ -28649,6 +29169,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 523,
     image:
@@ -28702,6 +29223,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 524,
     image:
@@ -28755,6 +29277,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 9,
     id: 525,
     image:
@@ -28808,6 +29331,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 17,
     id: 526,
     image:
@@ -28861,6 +29385,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 527,
     image:
@@ -28918,6 +29443,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 9,
     id: 528,
     image:
@@ -28975,6 +29501,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 529,
     image:
@@ -29028,6 +29555,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 530,
     image:
@@ -29085,6 +29613,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 531,
     image:
@@ -29138,6 +29667,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 532,
     image:
@@ -29191,6 +29721,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 533,
     image:
@@ -29244,6 +29775,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 534,
     image:
@@ -29297,6 +29829,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 535,
     image:
@@ -29350,6 +29883,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 536,
     image:
@@ -29407,6 +29941,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 537,
     image:
@@ -29464,6 +29999,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 13,
     id: 538,
     image:
@@ -29517,6 +30053,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 539,
     image:
@@ -29570,6 +30107,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 540,
     image:
@@ -29627,6 +30165,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 541,
     image:
@@ -29684,6 +30223,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 542,
     image:
@@ -29741,6 +30281,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 543,
     image:
@@ -29798,6 +30339,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 544,
     image:
@@ -29855,6 +30397,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 25,
     id: 545,
     image:
@@ -29912,6 +30455,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 546,
     image:
@@ -29969,6 +30513,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 547,
     image:
@@ -30026,6 +30571,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 548,
     image:
@@ -30079,6 +30625,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 549,
     image:
@@ -30132,6 +30679,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 550,
     image:
@@ -30185,6 +30733,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 551,
     image:
@@ -30242,6 +30791,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 552,
     image:
@@ -30299,6 +30849,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 553,
     image:
@@ -30356,6 +30907,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 554,
     image:
@@ -30409,6 +30961,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 13,
     id: 555,
     image:
@@ -30462,6 +31015,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 556,
     image:
@@ -30515,6 +31069,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 557,
     image:
@@ -30572,6 +31127,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 558,
     image:
@@ -30629,6 +31185,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 559,
     image:
@@ -30686,6 +31243,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 560,
     image:
@@ -30743,6 +31301,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 561,
     image:
@@ -30800,6 +31359,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 562,
     image:
@@ -30853,6 +31413,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 17,
     id: 563,
     image:
@@ -30906,6 +31467,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 564,
     image:
@@ -30963,6 +31525,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 565,
     image:
@@ -31020,6 +31583,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 566,
     image:
@@ -31077,6 +31641,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 567,
     image:
@@ -31134,6 +31699,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 568,
     image:
@@ -31187,6 +31753,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 19,
     id: 569,
     image:
@@ -31240,6 +31807,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 570,
     image:
@@ -31293,6 +31861,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 571,
     image:
@@ -31346,6 +31915,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 572,
     image:
@@ -31399,6 +31969,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 573,
     image:
@@ -31452,6 +32023,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 574,
     image:
@@ -31505,6 +32077,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 575,
     image:
@@ -31558,6 +32131,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 576,
     image:
@@ -31611,6 +32185,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 577,
     image:
@@ -31664,6 +32239,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 578,
     image:
@@ -31717,6 +32293,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 579,
     image:
@@ -31770,6 +32347,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 580,
     image:
@@ -31827,6 +32405,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 13,
     id: 581,
     image:
@@ -31884,6 +32463,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 582,
     image:
@@ -31937,6 +32517,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 583,
     image:
@@ -31990,6 +32571,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 13,
     id: 584,
     image:
@@ -32043,6 +32625,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 585,
     image:
@@ -32100,6 +32683,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 19,
     id: 586,
     image:
@@ -32157,6 +32741,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 587,
     image:
@@ -32214,6 +32799,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 588,
     image:
@@ -32267,6 +32853,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 589,
     image:
@@ -32324,6 +32911,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 2,
     id: 590,
     image:
@@ -32381,6 +32969,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 591,
     image:
@@ -32438,6 +33027,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 592,
     image:
@@ -32495,6 +33085,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 22,
     id: 593,
     image:
@@ -32552,6 +33143,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 594,
     image:
@@ -32605,6 +33197,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 1,
     id: 595,
     image:
@@ -32662,6 +33255,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 596,
     image:
@@ -32719,6 +33313,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 597,
     image:
@@ -32776,6 +33371,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 598,
     image:
@@ -32833,6 +33429,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 599,
     image:
@@ -32886,6 +33483,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 600,
     image:
@@ -32939,6 +33537,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 601,
     image:
@@ -32992,6 +33591,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 2,
     id: 602,
     image:
@@ -33045,6 +33645,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 603,
     image:
@@ -33098,6 +33699,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 21,
     id: 604,
     image:
@@ -33151,6 +33753,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 605,
     image:
@@ -33204,6 +33807,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 606,
     image:
@@ -33257,6 +33861,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 607,
     image:
@@ -33314,6 +33919,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 608,
     image:
@@ -33371,6 +33977,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 609,
     image:
@@ -33428,6 +34035,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 610,
     image:
@@ -33481,6 +34089,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 611,
     image:
@@ -33534,6 +34143,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 18,
     id: 612,
     image:
@@ -33587,6 +34197,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 613,
     image:
@@ -33640,6 +34251,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 26,
     id: 614,
     image:
@@ -33693,6 +34305,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 615,
     image:
@@ -33746,6 +34359,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 4,
     id: 616,
     image:
@@ -33799,6 +34413,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 617,
     image:
@@ -33852,6 +34467,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 7,
     id: 618,
     image:
@@ -33909,6 +34525,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 9,
     id: 619,
     image:
@@ -33962,6 +34579,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 620,
     image:
@@ -34015,6 +34633,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 621,
     image:
@@ -34068,6 +34687,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 10,
     id: 622,
     image:
@@ -34125,6 +34745,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 28,
     id: 623,
     image:
@@ -34182,6 +34803,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 624,
     image:
@@ -34239,6 +34861,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 625,
     image:
@@ -34296,6 +34919,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 626,
     image:
@@ -34349,6 +34973,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 627,
     image:
@@ -34406,6 +35031,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 628,
     image:
@@ -34463,6 +35089,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 5,
     id: 629,
     image:
@@ -34520,6 +35147,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 12,
     id: 630,
     image:
@@ -34577,6 +35205,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 631,
     image:
@@ -34630,6 +35259,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 3,
     id: 632,
     image:
@@ -34687,6 +35317,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 8,
     id: 633,
     image:
@@ -34744,6 +35375,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 634,
     image:
@@ -34801,6 +35433,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 18,
     id: 635,
     image:
@@ -34858,6 +35491,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 11,
     id: 636,
     image:
@@ -34915,6 +35549,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 16,
     id: 637,
     image:
@@ -34972,6 +35607,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 21,
     id: 638,
     image:
@@ -35029,6 +35665,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 19,
     id: 639,
     image:
@@ -35086,6 +35723,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 20,
     id: 640,
     image:
@@ -35143,6 +35781,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 641,
     image:
@@ -35196,6 +35835,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 642,
     image:
@@ -35253,6 +35893,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 32,
     id: 643,
     image:
@@ -35310,6 +35951,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 29,
     id: 644,
     image:
@@ -35367,6 +36009,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 645,
     image:
@@ -35424,6 +36067,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 30,
     id: 646,
     image:
@@ -35481,6 +36125,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 14,
     id: 647,
     image:
@@ -35538,6 +36183,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 6,
     id: 648,
     image:
@@ -35595,6 +36241,7 @@ export const geracao05: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 5,
     height: 15,
     id: 649,
     image:
@@ -35650,12 +36297,13 @@ export const geracao05: Pokemon[] = [
       },
     ],
   },
-  
 ];
+
 
 export const geracao06: Pokemon[] = [
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 650,
     image:
@@ -35709,6 +36357,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 7,
     id: 651,
     image:
@@ -35762,6 +36411,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 16,
     id: 652,
     image:
@@ -35819,6 +36469,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 653,
     image:
@@ -35872,6 +36523,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 10,
     id: 654,
     image:
@@ -35925,6 +36577,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 655,
     image:
@@ -35982,6 +36635,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 656,
     image:
@@ -36035,6 +36689,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 6,
     id: 657,
     image:
@@ -36088,6 +36743,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 658,
     image:
@@ -36145,6 +36801,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 659,
     image:
@@ -36198,6 +36855,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 10,
     id: 660,
     image:
@@ -36255,6 +36913,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 661,
     image:
@@ -36312,6 +36971,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 7,
     id: 662,
     image:
@@ -36369,6 +37029,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 12,
     id: 663,
     image:
@@ -36426,6 +37087,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 664,
     image:
@@ -36479,6 +37141,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 665,
     image:
@@ -36532,6 +37195,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 12,
     id: 666,
     image:
@@ -36589,6 +37253,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 6,
     id: 667,
     image:
@@ -36646,6 +37311,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 668,
     image:
@@ -36703,6 +37369,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 1,
     id: 669,
     image:
@@ -36756,6 +37423,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 2,
     id: 670,
     image:
@@ -36809,6 +37477,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 11,
     id: 671,
     image:
@@ -36862,6 +37531,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 9,
     id: 672,
     image:
@@ -36915,6 +37585,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 17,
     id: 673,
     image:
@@ -36968,6 +37639,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 6,
     id: 674,
     image:
@@ -37021,6 +37693,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 21,
     id: 675,
     image:
@@ -37078,6 +37751,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 12,
     id: 676,
     image:
@@ -37131,6 +37805,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 677,
     image:
@@ -37184,6 +37859,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 6,
     id: 678,
     image:
@@ -37237,6 +37913,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 679,
     image:
@@ -37294,6 +37971,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 680,
     image:
@@ -37351,6 +38029,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 17,
     id: 681,
     image:
@@ -37408,6 +38087,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 2,
     id: 682,
     image:
@@ -37461,6 +38141,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 683,
     image:
@@ -37514,6 +38195,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 684,
     image:
@@ -37567,6 +38249,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 685,
     image:
@@ -37620,6 +38303,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 686,
     image:
@@ -37677,6 +38361,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 687,
     image:
@@ -37734,6 +38419,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 688,
     image:
@@ -37791,6 +38477,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 13,
     id: 689,
     image:
@@ -37848,6 +38535,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 690,
     image:
@@ -37905,6 +38593,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 18,
     id: 691,
     image:
@@ -37962,6 +38651,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 692,
     image:
@@ -38015,6 +38705,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 13,
     id: 693,
     image:
@@ -38068,6 +38759,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 694,
     image:
@@ -38125,6 +38817,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 10,
     id: 695,
     image:
@@ -38182,6 +38875,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 696,
     image:
@@ -38239,6 +38933,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 25,
     id: 697,
     image:
@@ -38296,6 +38991,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 13,
     id: 698,
     image:
@@ -38353,6 +39049,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 27,
     id: 699,
     image:
@@ -38410,6 +39107,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 10,
     id: 700,
     image:
@@ -38463,6 +39161,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 701,
     image:
@@ -38520,6 +39219,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 2,
     id: 702,
     image:
@@ -38577,6 +39277,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 703,
     image:
@@ -38634,6 +39335,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 3,
     id: 704,
     image:
@@ -38687,6 +39389,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 8,
     id: 705,
     image:
@@ -38740,6 +39443,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 20,
     id: 706,
     image:
@@ -38793,6 +39497,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 2,
     id: 707,
     image:
@@ -38850,6 +39555,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 708,
     image:
@@ -38907,6 +39613,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 709,
     image:
@@ -38964,6 +39671,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 4,
     id: 710,
     image:
@@ -39021,6 +39729,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 9,
     id: 711,
     image:
@@ -39078,6 +39787,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 10,
     id: 712,
     image:
@@ -39131,6 +39841,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 20,
     id: 713,
     image:
@@ -39184,6 +39895,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 714,
     image:
@@ -39241,6 +39953,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 15,
     id: 715,
     image:
@@ -39298,6 +40011,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 30,
     id: 716,
     image:
@@ -39351,6 +40065,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 58,
     id: 717,
     image:
@@ -39408,6 +40123,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 50,
     id: 718,
     image:
@@ -39465,6 +40181,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 7,
     id: 719,
     image:
@@ -39522,6 +40239,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 5,
     id: 720,
     image:
@@ -39579,6 +40297,7 @@ export const geracao06: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 6,
     height: 17,
     id: 721,
     image:
@@ -39634,12 +40353,13 @@ export const geracao06: Pokemon[] = [
       },
     ],
   },
-  
 ];
+
 
 export const geracao07: Pokemon[] = [
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 722,
     image:
@@ -39697,6 +40417,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 723,
     image:
@@ -39754,6 +40475,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 16,
     id: 724,
     image:
@@ -39811,6 +40533,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 725,
     image:
@@ -39864,6 +40587,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 726,
     image:
@@ -39917,6 +40641,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 727,
     image:
@@ -39974,6 +40699,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 728,
     image:
@@ -40027,6 +40753,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 729,
     image:
@@ -40080,6 +40807,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 730,
     image:
@@ -40137,6 +40865,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 731,
     image:
@@ -40194,6 +40923,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 732,
     image:
@@ -40251,6 +40981,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 11,
     id: 733,
     image:
@@ -40308,6 +41039,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 734,
     image:
@@ -40361,6 +41093,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 735,
     image:
@@ -40414,6 +41147,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 736,
     image:
@@ -40467,6 +41201,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 5,
     id: 737,
     image:
@@ -40524,6 +41259,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 15,
     id: 738,
     image:
@@ -40581,6 +41317,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 739,
     image:
@@ -40634,6 +41371,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 17,
     id: 740,
     image:
@@ -40691,6 +41429,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 741,
     image:
@@ -40748,6 +41487,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 1,
     id: 742,
     image:
@@ -40805,6 +41545,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 743,
     image:
@@ -40862,6 +41603,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 5,
     id: 744,
     image:
@@ -40915,6 +41657,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 8,
     id: 745,
     image:
@@ -40968,6 +41711,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 746,
     image:
@@ -41021,6 +41765,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 747,
     image:
@@ -41078,6 +41823,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 748,
     image:
@@ -41135,6 +41881,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 10,
     id: 749,
     image:
@@ -41188,6 +41935,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 25,
     id: 750,
     image:
@@ -41241,6 +41989,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 751,
     image:
@@ -41298,6 +42047,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 752,
     image:
@@ -41355,6 +42105,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 753,
     image:
@@ -41408,6 +42159,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 9,
     id: 754,
     image:
@@ -41461,6 +42213,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 755,
     image:
@@ -41518,6 +42271,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 10,
     id: 756,
     image:
@@ -41575,6 +42329,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 757,
     image:
@@ -41632,6 +42387,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 12,
     id: 758,
     image:
@@ -41689,6 +42445,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 5,
     id: 759,
     image:
@@ -41746,6 +42503,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 21,
     id: 760,
     image:
@@ -41803,6 +42561,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 761,
     image:
@@ -41856,6 +42615,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 762,
     image:
@@ -41909,6 +42669,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 12,
     id: 763,
     image:
@@ -41962,6 +42723,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 1,
     id: 764,
     image:
@@ -42015,6 +42777,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 15,
     id: 765,
     image:
@@ -42072,6 +42835,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 20,
     id: 766,
     image:
@@ -42125,6 +42889,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 5,
     id: 767,
     image:
@@ -42182,6 +42947,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 20,
     id: 768,
     image:
@@ -42239,6 +43005,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 5,
     id: 769,
     image:
@@ -42296,6 +43063,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 13,
     id: 770,
     image:
@@ -42353,6 +43121,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 771,
     image:
@@ -42406,6 +43175,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 19,
     id: 772,
     image:
@@ -42459,6 +43229,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 23,
     id: 773,
     image:
@@ -42512,6 +43283,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 774,
     image:
@@ -42569,6 +43341,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 4,
     id: 775,
     image:
@@ -42622,6 +43395,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 20,
     id: 776,
     image:
@@ -42679,6 +43453,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 777,
     image:
@@ -42736,6 +43511,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 778,
     image:
@@ -42793,6 +43569,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 9,
     id: 779,
     image:
@@ -42850,6 +43627,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 30,
     id: 780,
     image:
@@ -42907,6 +43685,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 39,
     id: 781,
     image:
@@ -42964,6 +43743,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 782,
     image:
@@ -43017,6 +43797,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 12,
     id: 783,
     image:
@@ -43074,6 +43855,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 16,
     id: 784,
     image:
@@ -43131,6 +43913,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 785,
     image:
@@ -43188,6 +43971,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 12,
     id: 786,
     image:
@@ -43245,6 +44029,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 19,
     id: 787,
     image:
@@ -43302,6 +44087,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 13,
     id: 788,
     image:
@@ -43359,6 +44145,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 789,
     image:
@@ -43412,6 +44199,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 1,
     id: 790,
     image:
@@ -43465,6 +44253,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 34,
     id: 791,
     image:
@@ -43522,6 +44311,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 40,
     id: 792,
     image:
@@ -43579,6 +44369,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 12,
     id: 793,
     image:
@@ -43636,6 +44427,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 24,
     id: 794,
     image:
@@ -43693,6 +44485,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 795,
     image:
@@ -43750,6 +44543,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 38,
     id: 796,
     image:
@@ -43803,6 +44597,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 92,
     id: 797,
     image:
@@ -43860,6 +44655,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 3,
     id: 798,
     image:
@@ -43917,6 +44713,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 55,
     id: 799,
     image:
@@ -43974,6 +44771,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 24,
     id: 800,
     image:
@@ -44027,6 +44825,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 10,
     id: 801,
     image:
@@ -44084,6 +44883,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 7,
     id: 802,
     image:
@@ -44141,6 +44941,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 6,
     id: 803,
     image:
@@ -44194,6 +44995,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 36,
     id: 804,
     image:
@@ -44251,6 +45053,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 55,
     id: 805,
     image:
@@ -44308,6 +45111,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 18,
     id: 806,
     image:
@@ -44365,6 +45169,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 15,
     id: 807,
     image:
@@ -44418,6 +45223,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 2,
     id: 808,
     image:
@@ -44471,6 +45277,7 @@ export const geracao07: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 7,
     height: 25,
     id: 809,
     image:
@@ -44522,12 +45329,13 @@ export const geracao07: Pokemon[] = [
       },
     ],
   },
- 
 ];
 
-export const geracao08: Pokemon[] = [
+
+ export const geracao08: Pokemon[] = [
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 810,
     image:
@@ -44581,6 +45389,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 7,
     id: 811,
     image:
@@ -44634,6 +45443,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 21,
     id: 812,
     image:
@@ -44687,6 +45497,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 813,
     image:
@@ -44740,6 +45551,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 814,
     image:
@@ -44793,6 +45605,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 14,
     id: 815,
     image:
@@ -44846,6 +45659,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 816,
     image:
@@ -44899,6 +45713,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 7,
     id: 817,
     image:
@@ -44952,6 +45767,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 19,
     id: 818,
     image:
@@ -45005,6 +45821,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 819,
     image:
@@ -45058,6 +45875,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 820,
     image:
@@ -45111,6 +45929,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 2,
     id: 821,
     image:
@@ -45164,6 +45983,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 8,
     id: 822,
     image:
@@ -45217,6 +46037,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 22,
     id: 823,
     image:
@@ -45274,6 +46095,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 824,
     image:
@@ -45327,6 +46149,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 825,
     image:
@@ -45384,6 +46207,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 826,
     image:
@@ -45441,6 +46265,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 827,
     image:
@@ -45494,6 +46319,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 12,
     id: 828,
     image:
@@ -45547,6 +46373,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 829,
     image:
@@ -45600,6 +46427,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 5,
     id: 830,
     image:
@@ -45653,6 +46481,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 831,
     image:
@@ -45706,6 +46535,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 13,
     id: 832,
     image:
@@ -45759,6 +46589,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 833,
     image:
@@ -45812,6 +46643,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 10,
     id: 834,
     image:
@@ -45869,6 +46701,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 835,
     image:
@@ -45922,6 +46755,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 10,
     id: 836,
     image:
@@ -45975,6 +46809,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 837,
     image:
@@ -46028,6 +46863,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 11,
     id: 838,
     image:
@@ -46085,6 +46921,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 28,
     id: 839,
     image:
@@ -46142,6 +46979,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 2,
     id: 840,
     image:
@@ -46199,6 +47037,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 841,
     image:
@@ -46256,6 +47095,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 842,
     image:
@@ -46313,6 +47153,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 22,
     id: 843,
     image:
@@ -46366,6 +47207,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 38,
     id: 844,
     image:
@@ -46419,6 +47261,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 8,
     id: 845,
     image:
@@ -46476,6 +47319,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 5,
     id: 846,
     image:
@@ -46529,6 +47373,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 13,
     id: 847,
     image:
@@ -46582,6 +47427,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 848,
     image:
@@ -46639,6 +47485,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 16,
     id: 849,
     image:
@@ -46696,6 +47543,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 7,
     id: 850,
     image:
@@ -46753,6 +47601,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 30,
     id: 851,
     image:
@@ -46810,6 +47659,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 852,
     image:
@@ -46863,6 +47713,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 16,
     id: 853,
     image:
@@ -46916,6 +47767,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 1,
     id: 854,
     image:
@@ -46969,6 +47821,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 2,
     id: 855,
     image:
@@ -47022,6 +47875,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 856,
     image:
@@ -47075,6 +47929,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 857,
     image:
@@ -47128,6 +47983,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 21,
     id: 858,
     image:
@@ -47185,6 +48041,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 4,
     id: 859,
     image:
@@ -47242,6 +48099,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 8,
     id: 860,
     image:
@@ -47299,6 +48157,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 15,
     id: 861,
     image:
@@ -47356,6 +48215,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 16,
     id: 862,
     image:
@@ -47413,6 +48273,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 8,
     id: 863,
     image:
@@ -47466,6 +48327,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 10,
     id: 864,
     image:
@@ -47519,6 +48381,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 8,
     id: 865,
     image:
@@ -47572,6 +48435,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 15,
     id: 866,
     image:
@@ -47629,6 +48493,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 16,
     id: 867,
     image:
@@ -47686,6 +48551,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 2,
     id: 868,
     image:
@@ -47739,6 +48605,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 869,
     image:
@@ -47792,6 +48659,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 30,
     id: 870,
     image:
@@ -47845,6 +48713,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 871,
     image:
@@ -47898,6 +48767,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 872,
     image:
@@ -47955,6 +48825,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 13,
     id: 873,
     image:
@@ -48012,6 +48883,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 25,
     id: 874,
     image:
@@ -48065,6 +48937,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 14,
     id: 875,
     image:
@@ -48118,6 +48991,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 9,
     id: 876,
     image:
@@ -48175,6 +49049,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 3,
     id: 877,
     image:
@@ -48232,6 +49107,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 12,
     id: 878,
     image:
@@ -48285,6 +49161,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 30,
     id: 879,
     image:
@@ -48338,6 +49215,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 18,
     id: 880,
     image:
@@ -48395,6 +49273,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 23,
     id: 881,
     image:
@@ -48452,6 +49331,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 23,
     id: 882,
     image:
@@ -48509,6 +49389,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 20,
     id: 883,
     image:
@@ -48566,6 +49447,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 18,
     id: 884,
     image:
@@ -48623,6 +49505,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 5,
     id: 885,
     image:
@@ -48680,6 +49563,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 14,
     id: 886,
     image:
@@ -48737,6 +49621,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 30,
     id: 887,
     image:
@@ -48794,6 +49679,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 28,
     id: 888,
     image:
@@ -48847,6 +49733,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 29,
     id: 889,
     image:
@@ -48900,6 +49787,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 200,
     id: 890,
     image:
@@ -48957,6 +49845,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 6,
     id: 891,
     image:
@@ -49010,6 +49899,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 19,
     id: 892,
     image:
@@ -49067,6 +49957,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 18,
     id: 893,
     image:
@@ -49124,6 +50015,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 12,
     id: 894,
     image:
@@ -49177,6 +50069,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 21,
     id: 895,
     image:
@@ -49230,6 +50123,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 22,
     id: 896,
     image:
@@ -49283,6 +50177,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 20,
     id: 897,
     image:
@@ -49336,6 +50231,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 11,
     id: 898,
     image:
@@ -49393,6 +50289,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 18,
     id: 899,
     image:
@@ -49450,6 +50347,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 18,
     id: 900,
     image:
@@ -49507,6 +50405,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 24,
     id: 901,
     image:
@@ -49564,6 +50463,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 30,
     id: 902,
     image:
@@ -49621,6 +50521,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 13,
     id: 903,
     image:
@@ -49678,6 +50579,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 25,
     id: 904,
     image:
@@ -49735,6 +50637,7 @@ export const geracao08: Pokemon[] = [
   },
   {
     catch: false,
+    generation: 8,
     height: 16,
     id: 905,
     image:
@@ -49790,5 +50693,5 @@ export const geracao08: Pokemon[] = [
       },
     ],
   },
-
 ];
+

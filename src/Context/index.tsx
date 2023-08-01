@@ -53,9 +53,10 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         let list: Pokemon[] = []
         try {
             setLoading(true);
-           /*  generation[geracao -1 ].forEach(elemento =>{
+           /* generation[geracao -1 ].forEach(elemento =>{
                 list.push({
                     catch: catcher,
+                    generation: geracao,
                     height: elemento.height,
                     id: elemento.id,
                     image: elemento.image,
