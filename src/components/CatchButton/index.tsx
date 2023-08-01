@@ -5,10 +5,10 @@ import CatchOn from '../../assets/svgs/pokeballCapturado.svg';
 import { Pokemon } from '../../model';
 import {useGlobalContext} from '../../Context'
 
-type Proprs = {
-  catch: Pokemon
+interface Proprs  {
+  pokemon: Pokemon
 }
-export const CatchButton: React.FC<Pokemon> = (pokemon : Pokemon) => {
+export const CatchButton: React.FC<Proprs> = ({pokemon}: Proprs) => {
 
   const {cathProkemon} = useGlobalContext();
 
