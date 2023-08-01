@@ -26,6 +26,7 @@
     "react-native-select-dropdown": "^3.3.4",
     "react-native-svg": "^13.10.0",
     "react-native-svg-transformer": "^1.1.0",
+    "realm": "^11.10.1",
     "styled-components": "^6.0.5"
   },
   "devDependencies": {
