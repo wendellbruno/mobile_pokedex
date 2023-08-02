@@ -41,7 +41,6 @@ export const ContainerImg = styled.View`
 `
 
 export const CatchView = styled.View`
-    border: 1px solid red;
     align-items: center;
-    margin-top: ${({theme}) => theme.px(15)}px;
+    margin-top: ${({theme}) => theme.px(10)}px;
 `;
