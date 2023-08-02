@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { View,Text } from 'react-native';
+import {useGlobalContext} from '../../Context';
+import {ListPokemon} from '../../components';
 
-// import { Container } from './styles';
+import { Container } from './styles';
+
 
 export const Catchs: React.FC = () => {
+  const {pokeListCatch} = useGlobalContext();
+  useEffect(() =>{},[])
   return (
-    <View>
-        <Text>Capturado</Text>
-    </View>
+    <Container>
+      <ListPokemon pokemon={pokeListCatch}  />
+    </Container>
   )
 }

@@ -4,3 +4,4 @@ export * from './ListPokemon';
 export * from './ChipType';
 export * from './ImagePoke';
 export * from './CatchButton';
+export * from './NoGeneration';

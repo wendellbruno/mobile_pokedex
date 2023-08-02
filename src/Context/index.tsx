@@ -1,28 +1,17 @@
-import {createContext, useState, useEffect, useContext} from 'react';
+import {createContext, useState, useEffect, useContext, useLayoutEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
-import {geracao01,geracao02,geracao03,geracao04,geracao05,geracao06,geracao07,geracao08, allGenerations} from '../data'
+import {allGenerations} from '../data'
 
 
 type Context = {
     pokemonList: Pokemon[],
+    pokeListCatch: Pokemon[],
     loading: boolean,
-    //geracao: number;
+    geracao: number;
     selectGeneration: (geracao: number) => void;
     cathProkemon: (poke: Pokemon) => void;
 }
-
-const generation = [
-    geracao01,
-    geracao02,
-    geracao03,
-    geracao04,
-    geracao05,
-    geracao06,
-    geracao07,
-    geracao08
-]
-    
 
 
 const PokeContext = createContext<Context>({} as Context);
@@ -32,38 +21,46 @@ type Props = {
 }
 export const PokeProvider: React.FC<Props> = ({children}) => {
 
+    const [allpokemonList, setAllPokemonList] = useState<Pokemon[]>([]);
     const [pokemonList, setPokemonList] = useState<Pokemon[]>([]);
     const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>([]);
-    const [geracao, setGeracao] = useState<number>(1);
+    const [geracao, setGeracao] = useState<number>(0);
     const [loading, setLoading] = useState(false);
-    const [catcher, setCatcher] = useState(false);
 
     useEffect(()=>{
+        console.log('primeiro')
         loadListPokemon();
     },[]);
 
     useEffect(()=>{
         loadListPokemon();
     },[geracao]);
-
-    //useEffect(()=>{},[pokeListCatch]);
-    
+   
     async function loadListPokemon(): Promise<void>{
+        //AsyncStorage.removeItem('@pokedex:mobile');
+
         let list: Pokemon[] = []
         try {
             setLoading(true);
             const storage = await AsyncStorage.getItem('@pokedex:mobile');
             if(!storage){
-                await AsyncStorage.setItem('@pokedex:mobile', JSON.stringify(allGenerations));
+                console.log('criando lista')
+                AsyncStorage.setItem('@pokedex:mobile', JSON.stringify(allGenerations));
                 const response = await AsyncStorage.getItem('@pokedex:mobile');
                 list = response ? JSON.parse(response) : []
-                setPokemonList(() => list.filter(elemento => elemento.generation === geracao))
+                setAllPokemonList(list);
+                setPokemonList( allpokemonList.filter(elemento => elemento.generation === geracao))
+                setPokeListCatch(allpokemonList.filter(elemento => elemento.catch === true))
+                setLoading(false)
+            }else{
+                console.log('lista ja existe')
+                const response = await AsyncStorage.getItem('@pokedex:mobile');
+                list = response ? JSON.parse(response) : []
+                setAllPokemonList(list);
+                setPokemonList( allpokemonList.filter(elemento => elemento.generation === geracao))
+                setPokeListCatch( allpokemonList.filter(elemento => elemento.catch === true))
                 setLoading(false)
             }
-                const response = await AsyncStorage.getItem('@pokedex:mobile');
-                list = response ? JSON.parse(response) : []
-                setPokemonList(() => list.filter(elemento => elemento.generation === geracao))
-                setLoading(false)
         } catch (error) {
             console.log(error);
             setLoading(false);
@@ -71,22 +68,24 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         }
     }
 
+
+
     function selectGeneration(geracao: number){
         setGeracao(geracao)
     } 
 
     async function cathProkemon(poke: Pokemon){
-        poke.catch = true
-        await AsyncStorage.setItem('@pokedex:mobile',JSON.stringify(pokemonList))
-
-        //setPokemonList(pokemonList);
-        //AsyncStorage.removeItem('@pokedex:mobile');
-        
-        
+         const selecionado = allpokemonList.filter(elemento => elemento.id === poke.id)
+        if(selecionado){
+            selecionado[0].catch = !selecionado[0].catch
+            AsyncStorage.setItem('@pokedex:mobile',JSON.stringify(allpokemonList));
+            loadListPokemon();
+        } 
     }
 
+
     return (
-        <PokeContext.Provider value={{pokemonList, loading, selectGeneration, cathProkemon}} >
+        <PokeContext.Provider value={{pokemonList, pokeListCatch, loading, geracao, selectGeneration, cathProkemon}} >
             {children}
         </PokeContext.Provider>
     )
