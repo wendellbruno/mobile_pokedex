@@ -17,7 +17,6 @@ type Poke = {
 }
 
 export const CardPokemon: React.FC<Poke> = ({pokemon}: Poke) => {
-  
   return (
     <Container>
       <Infos>
