@@ -4,14 +4,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Pokemon} from '../model';
 import {allGenerations} from '../data'
 
-
 type Context = {
-    pokemonList: Pokemon[],
-    pokeListCatch: Pokemon[],
-    loading: boolean,
+    pokemonList: Pokemon[];
+    pokeListCatch: Pokemon[];
+    pokeSelected: Pokemon;
+    loading: boolean;
+    modal: boolean;
     geracao: number;
     selectGeneration: (geracao: number) => void;
     cathProkemon: (poke: Pokemon) => void;
+    showModal: (poke: Pokemon) => void;
 }
 
 
@@ -27,6 +29,8 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
     const [pokeListCatch, setPokeListCatch] = useState<Pokemon[]>([]);
     const [geracao, setGeracao] = useState<number>(0);
     const [loading, setLoading] = useState(false);
+    const [modal, setModal] = useState<boolean>(false);
+    const [pokeSelected, setPokeSelected] = useState<Pokemon>({} as Pokemon);
 
     useEffect(()=>{
        
@@ -49,38 +53,6 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         loadBD();
     },[geracao]);
    
-   /*  async function loadListPokemon(): Promise<void>{
-        //AsyncStorage.removeItem('@pokedex:mobile');
-
-        let list: Pokemon[] = []
-        try {
-            setLoading(true);
-            const storage = await AsyncStorage.getItem('@pokedex:mobile');
-            if(!storage){
-                console.log('criando lista')
-                AsyncStorage.setItem('@pokedex:mobile', JSON.stringify(allGenerations));
-                const response = await AsyncStorage.getItem('@pokedex:mobile');
-                list = response ? JSON.parse(response) : []
-                setAllPokemonList(list);
-                setPokemonList( allpokemonList.filter(elemento => elemento.generation === geracao))
-                setPokeListCatch(allpokemonList.filter(elemento => elemento.catch === true))
-                setLoading(false)
-            }else{
-                console.log('lista ja existe')
-                const response = await AsyncStorage.getItem('@pokedex:mobile');
-                list = response ? JSON.parse(response) : []
-                setAllPokemonList(list);
-                setPokemonList( allpokemonList.filter(elemento => elemento.generation === geracao))
-                setPokeListCatch( allpokemonList.filter(elemento => elemento.catch === true))
-                setLoading(false)
-            }
-        } catch (error) {
-            console.log(error);
-            setLoading(false);
-            return;
-        }
-    } */
-
     async function createBD(): Promise<void>{
         let list: Pokemon[] = []
         console.log('criando lista')
@@ -118,9 +90,29 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         } 
     }
 
+    function showModal(pokemon: Pokemon){
+        if(modal){
+            setModal(false)
+            setPokeSelected({} as Pokemon);
+        }else{
+            setModal(true);
+            setPokeSelected(pokemon);
+        }
+      }
+
 
     return (
-        <PokeContext.Provider value={{pokemonList, pokeListCatch, loading, geracao, selectGeneration, cathProkemon}} >
+        <PokeContext.Provider value={{
+            pokemonList, 
+            pokeListCatch, 
+            loading, 
+            modal,
+            geracao, 
+            pokeSelected,
+            selectGeneration, 
+            cathProkemon,
+            showModal,
+            }} >
             {children}
         </PokeContext.Provider>
     )

@@ -1,19 +1,29 @@
 import React from 'react';
-import {InputSearch, SelectedGeracao, ListPokemon, NoGeneration} from '../../components'
+import { Modal } from 'react-native';
+import {InputSearch, SelectedGeracao, ListPokemon, NoGeneration, SelectedPokemon} from '../../components'
+
 import {useGlobalContext} from '../../Context';
 import { Container } from './styles';
 
 export const Home: React.FC = () => {
 
-  const {pokemonList, geracao} = useGlobalContext();
+  const {pokemonList, geracao, modal, pokeSelected, showModal} = useGlobalContext();
 
   return (
-    <Container>
-        <InputSearch />
-        <SelectedGeracao />
-        {geracao === 0 ? (<NoGeneration />) : <ListPokemon pokemon={pokemonList} /> }
-        
-    </Container>
+
+    <>
+    {modal === true ? (
+      <SelectedPokemon pokemon={pokeSelected}/>
+    ) : (
+      <Container>
+      <InputSearch />
+      <SelectedGeracao />
+      {geracao === 0 ? (<NoGeneration />) : <ListPokemon pokemon={pokemonList} /> }
+      </Container>
+    )
+  }
+    </>
+   
   )
   
 }
