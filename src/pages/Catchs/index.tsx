@@ -1,16 +1,22 @@
-import React from 'react';
-import {useGlobalContext} from '../../Context';
-import {ListPokemon, InputSearch} from '../../components';
+import React from "react";
+import { useGlobalContext } from "../../Context";
+import { ListPokemon, InputSearch, SelectedPokemon } from "../../components";
 
-import { Container } from './styles';
-
+import { Container } from "./styles";
 
 export const Catchs: React.FC = () => {
-  const {pokeListCatch} = useGlobalContext();
+  const { pokeListCatch, geracao, modal, pokeSelected, showModal } =
+    useGlobalContext();
   return (
-    <Container>
-      <InputSearch />
-      <ListPokemon pokemon={pokeListCatch}  />
-    </Container>
-  )
-}
+    <>
+      {modal === true ? (
+        <SelectedPokemon pokemon={pokeSelected} />
+      ) : (
+        <Container>
+          <InputSearch />
+          <ListPokemon pokemon={pokeListCatch} />
+        </Container>
+      )}
+    </>
+  );
+};
