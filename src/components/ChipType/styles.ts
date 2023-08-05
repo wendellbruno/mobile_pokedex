@@ -7,10 +7,11 @@ export const Container = styled.View`
     height: ${({theme}) => theme.px(40)}px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ContainerType = styled.View`
-    width: ${({theme}) => theme.px(53)}%;
     height: 40px;
     flex-direction: row;
     align-items: center;

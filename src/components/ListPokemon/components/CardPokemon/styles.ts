@@ -17,18 +17,19 @@ export const Infos = styled.View`
 
 `;
 
-export const Order = styled.Text`
-    font-size: ${({theme}) => theme.px(12)}px;
-    font-weight: 600;
-    color: black;
-
-`;
 
 export const Name = styled.Text`
     font-size: ${({theme}) => theme.px(21)}px;
     font-weight: 600;
     color: ${({theme}) => theme.colors.escala_de_cinza_preto};
     text-transform: uppercase;
+
+`;
+
+export const Order = styled.Text`
+    font-size: ${({theme}) => theme.px(12)}px;
+    font-weight: 600;
+    color: black;
 
 `;
 

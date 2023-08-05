@@ -76,6 +76,8 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
 
 
 
+
+
     function selectGeneration(geracao: number){
         setGeracao(geracao)
     } 

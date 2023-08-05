@@ -16,6 +16,9 @@ import Psychic from './psychic.svg'
 import Rock from './rock.svg'
 import Steel from './steel.svg'
 import Water from './water.svg'
+import BgPokeball from './bgPokeball.svg'
+import Weight from './weight.svg';
+import Height from './height.svg';
 
 import {SvgProps} from 'react-native-svg';
 
@@ -42,7 +45,10 @@ export const svgs = {
     psychic: <Psychic />,
     rock: <Rock />,
     steel: <Steel />,
-    water: <Water /> 
+    water: <Water />,
+    BgPokeball: <BgPokeball />,
+    height: <Height />,
+    weight:<Weight />
 }
 
  
