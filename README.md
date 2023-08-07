@@ -22,3 +22,7 @@ Para iniciar o projeto após o fork:
 Após baixar todas dependencias : 
 ### `npm start`
 
+
+
+https://github.com/wendellbruno/mobile_pokedex/assets/79750052/cc39bde2-2899-4359-90f7-d2017601d483
+
