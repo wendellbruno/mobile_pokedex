@@ -13,7 +13,6 @@ export const Catchs: React.FC = () => {
         <SelectedPokemon pokemon={pokeSelected} />
       ) : (
         <Container>
-          <InputSearch />
           <ListPokemon pokemon={pokeListCatch} />
         </Container>
       )}

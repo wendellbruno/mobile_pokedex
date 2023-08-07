@@ -6,6 +6,7 @@ import {allGenerations} from '../data'
 
 type Context = {
     pokemonList: Pokemon[];
+    allpokemonList: Pokemon[];
     pokeListCatch: Pokemon[];
     pokeSelected: Pokemon;
     loading: boolean;
@@ -107,6 +108,7 @@ export const PokeProvider: React.FC<Props> = ({children}) => {
         <PokeContext.Provider value={{
             pokemonList, 
             pokeListCatch, 
+            allpokemonList,
             loading, 
             modal,
             geracao, 
